@@ -4,15 +4,13 @@ import port1 from '../../component /img/img1.png';
 import port2 from '../../component /img/img2.png';
 import port3 from '../../component /img/img3.png';
 
-
 import Black from '../Line/Black';
 import ModelImg from '../ModelImg/ModelImg';
-
 
 const Portfolio: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const images: string[] = [port1, port2, port3,port1, port2, port3];
+  const images: string[] = [port1, port2, port3, port1, port2, port3];
 
   return (
     <>

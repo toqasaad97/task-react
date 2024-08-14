@@ -6,6 +6,7 @@ import Home from './component /Home/Home';
 import Portfolio from './component /portofilo/portofilo';
 import Contact from './component /contact/Contact';
 import About from './component /About/About';
+import ErrorPage from './ERROR/ErrorPage';
 
 
 
@@ -19,6 +20,9 @@ const router = createBrowserRouter([
       { path: '/about', element: <About/>},
       { path: '/portfolio', element: <Portfolio/>},
       { path: '/contact', element: <Contact/>},
+      { path: '*', element: <ErrorPage/>  
+      },
+
     ],
   },
 ]);

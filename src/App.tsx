@@ -1,6 +1,6 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import '@fortawesome/fontawesome-free';
 import Layout from './component /Layout';
 import Home from './component /Home/Home';
 import Portfolio from './component /portofilo/portofilo';
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       { path: '/about', element: <About/>},
       { path: '/portfolio', element: <Portfolio/>},
       { path: '/contact', element: <Contact/>},
-      { path: '*', element: <ErrorPage/>  
+      { path: '*', element: <ErrorPage/>
       },
 
     ],

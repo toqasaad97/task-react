@@ -1,0 +1,3 @@
+.text {
+  @apply text-white p-2 rounded hover:bg-[#1ABA9A] transition-all  delay-100 active:bg-[#1ABA9A]
+}

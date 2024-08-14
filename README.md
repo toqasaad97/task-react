@@ -22,13 +22,6 @@ This project is a React application that includes routing and a variety of compo
   - **`portofilo/`**: Contains the Portfolio page component.
 
 
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/toqasaad97/React-task.git# React + typeScript +vite
-This project is a React application that includes routing and a variety of components to demonstrate a simple web application structure.
-
 ## Features
 
 - React Router for navigation
